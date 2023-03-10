@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etude</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>  
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <header id="header">
+        <h1><a href="index.html"><img src="./img/header_logo.png" alt="에뛰드"></a></h1>
+        <ul class="depth1">
+            <li>
+                <a href="#">PRODUCT</a>
+                <ul class="depth2">
+                    <li class="firstdepth2">
+                        <a href="#">신제품</a>
+                        <ul class="firstdepth3">
+                            <li><a href="#">솔루션별</a></li>
+                            <li><a href="#">라인별</a></li>
+                            <li><a href="#">전체보기</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">아이</a>
+                        <ul class="depth3">
+                            <li><a href="#">전체</a></li>
+                            <li><a href="#">싱글섀도우</a></li>
+                            <li><a href="#">아이팔레트</a></li>
+                            <li><a href="#">마스카라</a></li>
+                            <li><a href="#">아이라이너</a></li>
+                            <li><a href="#">아이브로운</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">립</a>
+                        <ul class="depth3">
+                            <li><a href="#">전체</a></li>
+                            <li><a href="#">립스틱</a></li>
+                            <li><a href="#">틴트</a></li>
+                            <li><a href="#">글로스</a></li>
+                            <li><a href="#">립펜슬</a></li>
+                            <li><a href="#">립케어</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">페이스</a>
+                        <ul class="depth3">
+                            <li><a href="#">전체</a></li>
+                            <li><a href="#">베이스&middot;프라이머</a></li>
+                            <li><a href="#">쿠션&middot;파운데이션</a></li>
+                            <li><a href="#">BB&middot;컨실러</a></li>
+                            <li><a href="#">팩트&middot;파우더</a></li>
+                            <li><a href="#">컨투어링&middot;하이라이터</a></li>
+                            <li><a href="#">블러셔</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">네일</a>
+                        <ul class="depth3">
+                            <li><a href="#">전체</a></li>
+                            <li><a href="#">네일컬러</a></li>
+                            <li><a href="#">네일케어</a></li>
+                            <li><a href="#">네일리무버</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">스킨케어</a>
+                        <ul class="depth3">
+                            <li><a href="#">전체</a></li>
+                            <li><a href="#">토너&middot;패드</a></li>
+                            <li><a href="#">에멀전</a></li>
+                            <li><a href="#">에센스&middot;세럼</a></li>
+                            <li><a href="#">크림&middot;밤</a></li>
+                            <li><a href="#">미스트</a></li>
+                            <li><a href="#">선케어</a></li>
+                            <li><a href="#">세트</a></li>
+                            <li><a href="#">기타</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">마스크&middot;팩</a>
+                        <ul class="depth3">
+                            <li><a href="#">전체</a></li>
+                            <li><a href="#">시트마스크</a></li>
+                            <li><a href="#">페이셜팩</a></li>
+                            <li><a href="#">패치</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">클렌저</a>
+                        <ul class="depth3">
+                            <li><a href="#">전체</a></li>
+                            <li><a href="#">페이셜 클렌징</a></li>
+                            <li><a href="#">메이크업 클렌징</a></li>
+                            <li><a href="#">필링&middot;스크럽</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">바디</a>
+                        <ul class="depth3">
+                            <li><a href="#">전체</a></li>
+                            <li><a href="#">워시</a></li>
+                            <li><a href="#">보습</a></li>
+                            <li><a href="#">핸드&middot;풋</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">헤어</a>
+                        <ul class="depth3">
+                            <li><a href="#">전체</a></li>
+                            <li><a href="#">컬러&middot;스타일링</a></li>
+                            <li><a href="#">헤어케어</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">툴</a>
+                        <ul class="depth3">
+                            <li><a href="#">전체</a></li>
+                            <li><a href="#">브러쉬</a></li>
+                            <li><a href="#">퍼프</a></li>
+                            <li><a href="#">화장솜&middot;면봉</a></li>
+                            <li><a href="#">속눈썹&middot;브로우</a></li>
+                            <li><a href="#">공용기</a></li>
+                            <li><a href="#">헤어도구</a></li>
+                            <li><a href="#">기타</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">BRAND</a>
+                <ul class="depth2">
+                    <li><a href="#">About ETUDE</a></li>
+                    <li><a href="#">뷰티즌</a></li>
+                    <li><a href="#">지구를 위한 활동</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">LIMITED</a>
+                <ul class="depth2">
+                    <li><a href="#">New Launch</a></li>
+                    <li><a href="#">전체 컬렉션</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">STORY</a>
+                <ul class="depth2">
+                    <li><a href="#">제품 스토리</a></li>
+                    <li><a href="#">메이크업룩</a></li>
+                </ul>
+            </li>
+            <li><a href="#">EVENT</a></li>
+        </ul>
+        <div class="header-right">
+            <a href="#"><img src="./img/search.png" alt="검색"></a>
+            <a href="#" class="hr-menu"></a>
+        </div>
+    </header>
+    <div class="full-menu">
+        <ul class="fdepth1">
+            <li>
+                <a href="javascript:;">BRAND</a>
+                <ul class="fdepth2">
+                    <li><a href="javascript:;">About Etude</a></li>
+                    <li><a href="javascript:;">뷰티즌</a></li>
+                    <li><a href="javascript:;">지구를 위한 활동</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="javascript:;">LIMITED</a>
+                <ul class="fdepth2">
+                    <li><a href="javascript:;">New Launch</a></li>
+                    <li><a href="javascript:;">전체 컬렉션</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="javascript:;">PRODUCT</a>
+                <ul class="fdepth2">
+                    <li><a href="javascript:;">신제품 모아보기</a></li>
+                    <li><a href="javascript:;">라인별 모아보기</a></li>
+                    <li class="solution">
+                        <div><a href="javascript:;">솔루션별</a></div>
+                        <div class="fdepth3">
+                            <a href="javascript:;">수분진정</a>
+                            <a href="javascript:;">보습</a>
+                            <a href="javascript:;">트러블</a>
+                            <a href="javascript:;">묻어남방지</a>
+                            <a href="javascript:;">모공관리</a>
+                            <a href="javascript:;">결&middot;각질</a>
+                            <a href="javascript:;">선케어</a>
+                            <a href="javascript:;">핸드케어</a>
+                            <a href="javascript:;">커버케어</a>
+                            <a href="javascript:;">워터프루프</a>
+                        </div>
+                    </li>
+                    <li class="category">
+                        <div><a href="javascript:;">카테고리</a></div>
+                        <div class="fdepth3">
+                            <a href="javascript:;">전체</a>
+                            <a href="javascript:;">아이</a>
+                            <a href="javascript:;">립</a>
+                            <a href="javascript:;">페이스</a>
+                            <a href="javascript:;">네일</a>
+                            <a href="javascript:;">스킨케어</a>
+                            <a href="javascript:;">마스크&middot;팩</a>
+                            <a href="javascript:;">클렌저</a>
+                            <a href="javascript:;">바디</a>
+                            <a href="javascript:;">헤어</a>
+                            <a href="javascript:;">툴</a>
+                        </div>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="javascript:;">STORY</a>
+                <ul class="fdepth2">
+                    <li><a href="javascript:;">제품 스토리</a></li>
+                    <li><a href="javascript:;">메이크업룩</a></li>
+                </ul>
+            </li>
+            <li><a href="javascript:;">FOUNDATION FACTORY</a></li>
+            <li>
+                <a href="javascript:;">@etudeofficial</a>
+                <ul class="fdepth2">
+                    <li><a href="javascript:;">ZEPETO</a></li>
+                    <li><a href="javascript:;">YOUTUBE</a></li>
+                </ul>
+            </li>
+            <li><a href="javascript:;">EVENT</a></li>
+            <li>
+                <a href="javascript:;">STORE</a>
+                <ul class="fdepth2">
+                    <li><a href="javascript:;">온라인</a></li>
+                    <li><a href="javascript:;">오프라인</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="javascript:;">CONTACT</a>
+                <ul class="fdepth2">
+                    <li><a href="javascript:;">공지사항</a></li>
+                    <li><a href="javascript:;">FAQ</a></li>
+                    <li><a href="javascript:;">고객문의</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="javascript:;">MEMBERSHIP</a>
+                <ul class="fdepth2">
+                    <li><a href="javascript:;">핑크멤버십</a></li>
+                    <li><a href="javascript:;">뷰티포인트</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="javascript:;">AWARE</a>
+                <ul class="fdepth2">
+                    <li><a href="javascript:;">About AWARE</a></li>
+                    <li><a href="javascript:;">제품 보기</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="javascript:;">뽀오얀</a>
+                <ul class="fdepth2">
+                    <li><a href="javascript:;">About 뽀오얀</a></li>
+                    <li><a href="javascript:;">제품 보기</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <div class="small-menu">
+        <div class="sm-top">
+            <input type="text" placeholder="#립케어 강자! 진저슈가">
+            <a href="javascript:;" class="sm-close"><img src="./img/close.png" alt="닫기"></a>
+        </div>
+        <ul class="sm-tab-nav">
+            <li><a href="#tab1">MENU</a></li>
+            <li><a href="#tab2">CATEGORY</a></li>
+        </ul>
+        <div class="sm-tab-content">
+            <div id="tab1">
+                <ul class="sm-depth1">
+                    <li>
+                        <a href="javascript:;" class="smd1-bg">BRAND</a>
+                        <ul class="sm-depth2 cf">
+                            <li><a href="javascript:;">About ETUDE</a></li>
+                            <li><a href="javascript:;">뷰티즌</a></li>
+                            <li><a href="javascript:;">지구를 위한 활동</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="javascript:;" class="smd1-bg">LIMITED</a>
+                        <ul class="sm-depth2 cf">
+                            <li><a href="javascript:;">New Launch</a></li>
+                            <li><a href="javascript:;">전체 컬렉션</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="javascript:;" class="smd1-bg">PRODUCT</a>
+                        <ul class="sm-depth2 cf">
+                            <li><a href="javascript:;">신제품</a></li>
+                            <li><a href="javascript:;">카테고리</a></li>
+                            <li><a href="javascript:;">솔루션별</a></li>
+                            <li><a href="javascript:;">라인별</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="javascript:;" class="smd1-bg">STORY</a>
+                        <ul class="sm-depth2 cf">
+                            <li><a href="javascript:;">제품 스토리</a></li>
+                            <li><a href="javascript:;">메이크업룩</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="javascript:;">FOUNDATION FACTORY</a></li>
+                    <li>
+                        <a href="javascript:;" class="smd1-bg">@etudeofficial</a>
+                        <ul class="sm-depth2 cf">
+                            <li><a href="javascript:;">ZEPETO</a></li>
+                            <li><a href="javascript:;">YOUTUBE</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="javascript:;">EVENT</a></li>
+                    <li>
+                        <a href="javascript:;" class="smd1-bg">STORE</a>
+                        <ul class="sm-depth2 cf">
+                            <li><a href="javascript:;">온라인</a></li>
+                            <li><a href="javascript:;">오프라인</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="javascript:;" class="smd1-bg">CONTACT</a>
+                        <ul class="sm-depth2 cf">
+                            <li><a href="javascript:;">공지사항</a></li>
+                            <li><a href="javascript:;">FAQ</a></li>
+                            <li><a href="javascript:;">고객문의</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="javascript:;" class="smd1-bg">MEMBERSHIP</a>
+                        <ul class="sm-depth2 cf">
+                            <li><a href="javascript:;">핑크멤버십</a></li>
+                            <li><a href="javascript:;">뷰티포인트</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="javascript:;" class="smd1-bg">AWARE</a>
+                        <ul class="sm-depth2 cf">
+                            <li><a href="javascript:;">About AWARE</a></li>
+                            <li><a href="javascript:;">제품 보기</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="javascript:;" class="smd1-bg">뽀오얀</a>
+                        <ul class="sm-depth2 cf">
+                            <li><a href="javascript:;">About 뽀오얀</a></li>
+                            <li><a href="javascript:;">제품 보기</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div id="tab2">
+                <ul class="sm2-depth1 cf">
+                    <li>
+                        <a href="javascript:;" class="sm2d1-bg">아이</a>
+                        <ul class="sm2-depth2 cf">
+                            <li><a href="javascript:;">전체</a></li>
+                            <li><a href="javascript:;">싱글섀도우</a></li>
+                            <li><a href="javascript:;">아이팔레트</a></li>
+                            <li><a href="javascript:;">마스카라</a></li>
+                            <li><a href="javascript:;">아이라이너</a></li>
+                            <li><a href="javascript:;">아이브로우</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="javascript:;" class="sm2d1-bg">립</a>
+                        <ul class="sm2-depth2 cf">
+                            <li><a href="javascript:;">전체</a></li>
+                            <li><a href="javascript:;">립스틱</a></li>
+                            <li><a href="javascript:;">틴트</a></li>
+                            <li><a href="javascript:;">글로스</a></li>
+                            <li><a href="javascript:;">립펜슬</a></li>
+                            <li><a href="javascript:;">립케어</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="javascript:;" class="sm2d1-bg">페이스</a>
+                        <ul class="sm2-depth2 cf">
+                            <li><a href="javascript:;">전체</a></li>
+                            <li><a href="javascript:;">베이스&middot;프라이머</a></li>
+                            <li><a href="javascript:;">쿠션&middot;파운데이션</a></li>
+                            <li><a href="javascript:;">BB&middot;컨실러</a></li>
+                            <li><a href="javascript:;">팩트&middot;파우더</a></li>
+                            <li><a href="javascript:;">컨투어링&middot;하이라이터</a></li>
+                            <li><a href="javascript:;">블러셔</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="javascript:;" class="sm2d1-bg">네일</a>
+                        <ul class="sm2-depth2 cf">
+                            <li><a href="javascript:;">전체</a></li>
+                            <li><a href="javascript:;">네일컬러</a></li>
+                            <li><a href="javascript:;">네일케어</a></li>
+                            <li><a href="javascript:;">네일리무버</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="javascript:;" class="sm2d1-bg">스킨케어</a>
+                        <ul class="sm2-depth2 cf">
+                            <li><a href="javascript:;">전체</a></li>
+                            <li><a href="javascript:;">토너&middot;패드</a></li>
+                            <li><a href="javascript:;">에멀전</a></li>
+                            <li><a href="javascript:;">에센스&middot;세럼</a></li>
+                            <li><a href="javascript:;">크림&middot;밤</a></li>
+                            <li><a href="javascript:;">미스트</a></li>
+                            <li><a href="javascript:;">선케어</a></li>
+                            <li><a href="javascript:;">세트</a></li>
+                            <li><a href="javascript:;">기타</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="javascript:;" class="sm2d1-bg">마스크&middot;팩</a>
+                        <ul class="sm2-depth2 cf">
+                            <li><a href="javascript:;">전체</a></li>
+                            <li><a href="javascript:;">시트마스크</a></li>
+                            <li><a href="javascript:;">페이셜팩</a></li>
+                            <li><a href="javascript:;">패치</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="javascript:;" class="sm2d1-bg">클렌저</a>
+                        <ul class="sm2-depth2 cf">
+                            <li><a href="javascript:;">전체</a></li>
+                            <li><a href="javascript:;">페이셜 클렌징</a></li>
+                            <li><a href="javascript:;">메이크업 클렌징</a></li>
+                            <li><a href="javascript:;">필링&middot;스크럽</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="javascript:;" class="sm2d1-bg">바디</a>
+                        <ul class="sm2-depth2 cf">
+                            <li><a href="javascript:;">전체</a></li>
+                            <li><a href="javascript:;">워시</a></li>
+                            <li><a href="javascript:;">보습</a></li>
+                            <li><a href="javascript:;">핸드&middot;풋</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="javascript:;" class="sm2d1-bg">헤어</a>
+                        <ul class="sm2-depth2 cf">
+                            <li><a href="javascript:;">전체</a></li>
+                            <li><a href="javascript:;">헤어케어</a></li>
+                            <li><a href="javascript:;">컬러&middot;스타일링</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="javascript:;" class="sm2d1-bg">툴</a>
+                        <ul class="sm2-depth2 cf">
+                            <li><a href="javascript:;">전체</a></li>
+                            <li><a href="javascript:;">브러쉬</a></li>
+                            <li><a href="javascript:;">퍼프</a></li>
+                            <li><a href="javascript:;">화장솜&middot;면봉</a></li>
+                            <li><a href="javascript:;">속눈썹&middot;브로우</a></li>
+                            <li><a href="javascript:;">공용기</a></li>
+                            <li><a href="javascript:;">헤어도구</a></li>
+                            <li><a href="javascript:;">기타</a></li>
+                        </ul>
+                    </li>
+                    <li><h5><a href="javascript:;">솔루션별</a></h5></li>
+                    <li><h5><a href="javascript:;">라인별</a></h5></li>
+                    <li><a href="javascript:;">룩앳마이아이즈</a></li>
+                    <li><a href="javascript:;">플레이컬러아이즈</a></li>
+                    <li><a href="javascript:;">컬픽스</a></li>
+                    <li><a href="javascript:;">청순거짓</a></li>
+                    <li><a href="javascript:;">드로잉 아이즈</a></li>
+                    <li><a href="javascript:;">닥터 마스카라</a></li>
+                    <li><a href="javascript:;">픽싱틴트</a></li>
+                    <li><a href="javascript:;">디어달링</a></li>
+                    <li><a href="javascript:;">더블래스팅</a></li>
+                    <li><a href="javascript:;">순정</a></li>
+                    <li><a href="javascript:;">수분가득콜라겐</a></li>
+                    <li><a href="javascript:;">원더포어</a></li>
+                    <li><a href="javascript:;">AC클린업</a></li>
+                    <li><a href="javascript:;">리얼아트</a></li>
+                    <li><a href="javascript:;">베이킹파우더</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <section id="section">
+        <div id="section1">
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide mainslide1">slilde1</div>
+                    <div class="swiper-slide mainslide2">Slide 2</div>
+                    <div class="swiper-slide mainslide3">Slide 3</div>
+                    <div class="swiper-slide mainslide4">Slide 4</div>
+                    <div class="swiper-slide mainslide5">Slide 5</div>
+                    <div class="swiper-slide mainslide6">Slide 6</div>
+                    <div class="swiper-slide mainslide7">Slide 7</div>
+                </div>
+                </d7v>
+                <div class="swiper-scrollbar"></div>
+              </div>
+        </div>
+        <div id="section2"></div>
+        <div id="section3"></div>
+    </section>
+    <footer id="footer"></footer>
+</body>
+</html>

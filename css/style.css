@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+*{box-sizing: border-box;}
+.cf::after{
+    clear: both;
+    display: block;
+    content: '';
+}
+body{
+    font-family: 'Noto Sans KR', sans-serif;
+    width: 100%;
+    height: 100%;
+}
+#header{
+    width: 1520px;
+    height: 100px;
+    padding: 33px 60px 0 70px;
+    z-index: 10;
+    position: fixed;
+    background: transparent;
+    transition: all 0.5s;
+}
+#header.white{
+    background-color: rgba(255,255,255,0.7);
+}
+#header>h1{
+    float: left;
+}
+#header>h1>a>img{
+    width: 108px;
+    height: 45px;
+    display: block;
+    float: left;
+    margin-right: 50px;
+}
+#header>ul>li{
+    float: left;
+    /* background-color: lightgreen; */
+}
+#header>ul>li{
+    margin: 25px 25px 0 25px;
+}
+#header>ul>li>a{
+    font-weight: bold;
+    font-size: 16px;
+    color: #222;
+}
+#header>ul>li>a>img{
+    width: 108px;
+    height: 45px;
+    display: block;
+    float: left;
+}
+.header-right{
+    margin-top: 15px;
+    float: right;
+}
+.header-right>a{
+    display: block;
+    float: left;
+    margin: 0 10px;
+}
+.header-right>a>img{
+    width: 25px;
+}
+.hr-menu{
+    width: 25px;
+    height: 25px;
+    background: url('../img/menu.png') no-repeat center/cover;
+}
+.hr-menu.close{
+    background: url('../img/close.png') no-repeat center/cover;
+}
+.depth1{}
+.depth1>li:nth-child(2)>ul{padding-left: 380px;}
+.depth1>li:nth-child(3)>ul{padding-left: 490px;}
+.depth1>li:nth-child(4)>ul{padding-left: 600px;}
+.depth2{
+    position: absolute;
+    top: 100px;
+    left: 0;
+    width: 100%;
+    padding: 10px 0 20px 255px;
+    background:rgba(255,255,255,0.7);
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+.depth2>li{
+    line-height: 40px;
+}
+.depth2>li{
+    float: left;
+    margin: 0 17px;
+}
+.depth2>li>a{
+    font-size: 16px;
+    color: #111;
+    font-weight: 500;
+    display: block;
+    width: 100%;
+    position: relative;
+}
+.depth2 a:hover{
+    text-decoration: underline;
+}
+.depth2>li:first-child{
+    margin: 0;
+}
+.firstdepth2{
+    padding-right: 50px;
+}
+.firstdepth2 a::after{
+    display: block;
+    content: '';
+    position: absolute;
+    right: -25px;
+    top: 15px;
+    width: 6px;
+    height: 11px;
+    background: url('../img/icon-menu-arrow.svg') no-repeat center;
+}
+
+.firstdepth3{
+    width: 100%;
+}
+.firstdepth3>li{
+    line-height: 40px;
+    width: 100%;
+}
+.firstdepth3>li>a{
+    font-size: 16px;
+    font-weight: 500;
+    position: relative;
+    display: block;
+    width: 100%;
+}
+
+.depth3>li{
+    line-height: 40px;
+}
+.depth3>li>a{
+    font-size: 14px;
+    color: #333;
+}
+/* .depth1>li:hover .depth2{opacity: 1;} */
+.full-menu{
+    position: absolute;
+    top: 100px;
+    left: 0;
+    width: 100%;
+    height: calc(100% - 100px);
+    background-color: rgba(255,255,255,0.7);
+    padding: 20px;
+    z-index: 10;
+    display: none;
+}
+
+.fdepth1{
+    width: 50%;
+    height: 100%;
+}
+.fdepth1>li{
+    text-align: right;
+}
+.fdepth1>li>a{
+    font-size: 30px;
+    font-weight: bold;
+    display: block;
+}
+.fdepth1>li:hover>a{
+    text-decoration: underline;
+}
+.fdepth1>li:hover .fdepth2{
+    display: block;
+}
+.fdepth1>li
+.fdepth2{
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    right: 0;
+    top: 0;
+    text-align: left;
+    padding-left: 50px;
+    display: none;
+}
+.fdepth2>li>a{
+    font-size: 20px;
+    display: block;
+    width: 170px;
+    color: #444;
+    position: relative;
+    margin: 5px 0;
+}
+.fdepth2>li>a:hover{
+    color: #000;
+}
+.fdepth2>li>a::after{
+    top: 5px;
+    right: 0;
+    position: absolute;
+    display: block;
+    content: '';
+    width: 20px;
+    height: 20px;
+    background: url('../img/icon-ham-arrow.svg') no-repeat center/cover;
+}
+.fdepth1>li:first-child ul{top: 20px;}
+.fdepth1>li:nth-child(2) ul{top: 65px;}
+.fdepth1>li:nth-child(3) ul{top: 110px;}
+.fdepth1>li:nth-child(4) ul{top: 155px;}
+.fdepth1>li:nth-child(6) ul{top: 245px;}
+.fdepth1>li:nth-child(8) ul{top: 335px;}
+.fdepth1>li:nth-child(9) ul{top: 380px;}
+.fdepth1>li:nth-child(10) ul{top: 425px;}
+.fdepth1>li:nth-child(11) ul{top: 470px;}
+.fdepth1>li:nth-child(12) ul{top: 515px;}
+
+.solution{
+    position: absolute;
+    /* background-color: blue; */
+    width: 150px;
+    height: 100%;
+    left: 50px;
+    top: 80px;
+}
+.solution>div>a{
+    font-size: 20px;
+    color: #555;
+    line-height: 30px;
+}
+.solution>div>a:hover{
+    color: #000;
+}
+.fdepth3>a{ 
+    font-size: 16px !important;
+    display: block;
+}
+.fdepth3 a:hover{
+    color: #000;
+}
+.category{
+    position: absolute;
+    /* background-color: greenyellow; */
+    width: 150px;
+    height: 100%;
+    left: 200px;
+    top: 80px;
+}
+.category>div>a{
+    font-size: 20px;
+    color: #555;
+    line-height: 30px;
+}
+.category>div>a:hover{
+    color: #000;
+}
+.small-menu{display: none;}
+#section{
+    width: 100%;
+    height: 1000px;
+    /* background-color: lightgoldenrodyellow; */
+}
+#section1{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+/* section1 메인슬라이드 */
+.swiper{
+    width: 100%;
+    height: 100%;
+}
+.swiper-wrapper{
+    width: 100%;
+    height: 100%;
+}
+.mainslide1{
+    width: 100%;
+    height: 100%;
+    background: url('../img/mainslide1.jpg') no-repeat center/cover;
+}
+.mainslide2{
+    width: 100%;
+    height: 100%;
+    background: url('../img/mainslide2.jpg') no-repeat center/cover;
+}
+.mainslide3{
+    width: 100%;
+    height: 100%;
+    background: url('../img/mainslide3.jpg') no-repeat center/cover;
+}
+.mainslide4{
+    width: 100%;
+    height: 100%;
+    background: url('../img/mainslide4.jpg') no-repeat center/cover;
+}
+.mainslide5{
+    width: 100%;
+    height: 100%;
+    background: url('../img/mainslide5.jpg') no-repeat center/cover;
+}
+.mainslide6{
+    width: 100%;
+    height: 100%;
+    background: url('../img/mainslide6.jpg') no-repeat center/cover;
+}
+.mainslide7{
+    width: 100%;
+    height: 100%;
+    background: url('../img/mainslide7.jpg') no-repeat center/cover;
+}
