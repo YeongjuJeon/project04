@@ -72,6 +72,7 @@ body{
     background: url('../img/close.png') no-repeat center/cover;
 }
 .depth1{}
+.depth1>li{transition: all 0.5s;}
 .depth1>li:nth-child(2)>ul{padding-left: 380px;}
 .depth1>li:nth-child(3)>ul{padding-left: 490px;}
 .depth1>li:nth-child(4)>ul{padding-left: 600px;}
@@ -83,9 +84,13 @@ body{
     padding: 10px 0 20px 255px;
     background:rgba(255,255,255,0.7);
     opacity: 0;
+    display: none;
     transition: all 0.5s;
 }
-
+.depth1>li:hover .depth2{
+    display: block;
+    opacity: 1;
+}
 .depth2>li{
     line-height: 40px;
 }

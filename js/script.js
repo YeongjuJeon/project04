@@ -13,10 +13,10 @@ $(function(){
     })
     // 메뉴호버
     $('.depth1>li>a').hover(function(){
-        $(this).next('ul').css({opacity: 1});
+        $(this).next('ul').css({display: 'block'});
         Header.addClass('white');
     },function(){
-        $(this).next('ul').css({opacity: 0});
+        $(this).next('ul').css({display: 'none'});
         Header.removeClass('white');
     })
     // sm-top 닫기
