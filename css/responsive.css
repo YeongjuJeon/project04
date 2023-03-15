@@ -1,3 +1,87 @@
+@media screen and (max-width: 1500px){
+    #section7{
+        width: 100%;
+        padding: 30px 0;
+        display: block;
+        position: relative;
+        clear: both;
+    }
+    #section7::after{display: none;}
+    .s7-left{
+        float: left;
+        width: 50%;
+        height: 700px;
+        padding: 50px 0;
+        margin-right: 0;
+        position: relative;
+    }
+    .s7-left::after{
+        display: block;
+        content: '';
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        left: 0;
+        top: 0;
+        background-color: #f7dce2;
+        z-index: -1;
+    }
+    .s7-left h5{
+        display: none;
+    }
+    .s7-left a{
+        display: block;
+        float: right;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 250px;
+        transform: translate(-50%, -50%);
+    }
+    .s7-left a img{
+        display: block;
+        width: 100%;
+    }
+    .s7-left span{
+        font-size: 25px;
+        position: absolute;
+        display: block;
+        bottom: 60px;
+        right: 30px;
+    }
+    .s7-left p{
+        font-size: 25px;
+        font-weight: bold;
+        position: absolute;
+        bottom: 30px;
+        right: 30px;
+    }
+    .s7-right{display: none}
+    .s7-swiper{
+        display: block;
+        float: right;
+        width: 50%;
+        height: 700px;
+        margin: 0;
+    }
+    .s7-swiper .swiper-slide img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    #footer{
+        display: block;
+    }
+    .footer-left{
+        width: 100%;
+    }
+    .footer-right{
+        width: 100%;
+    }
+    .fcontact>div>div:nth-child(2){
+        margin-right: 50px;
+    }
+}
 @media screen and (max-width: 1400px){
     #header{
         width: 100%;
@@ -62,6 +146,75 @@
         height: 350px;
         position: relative;
         display: inline-block;
+    }
+    .s6-bottom{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .s6box{
+        width: 48%;
+    }
+    .s6bb{}
+    .s6bb span{
+        font-size: 11px;
+    }
+    .s6bb a{
+        font-size: 15px;
+        margin: 5px 0;
+    }
+    .s6bb p{
+        font-size: 13px;
+    }
+    .s7-left{
+        float: left;
+        width: 50%;
+        height: 400px;
+        padding: 50px 0;
+        margin-right: 0;
+        position: relative;
+    }
+    .s7-left a{
+        display: block;
+        float: right;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 150px;
+        transform: translate(-50%, -50%);
+    }
+    .s7-swiper{
+        display: block;
+        float: right;
+        width: 50%;
+        height: 400px;
+        margin: 0;
+    }
+    #section8{
+        padding: 30px 0;
+        margin-bottom: 50px;
+    }
+    .s8-top{
+        text-align: auto;
+    }
+    .s8-top img{
+        display: block;
+        float: left;
+        width: 22px;
+        margin-left: 20px;
+    }
+    .s8-top h4{
+        margin: 0 0 20px 5px;
+        font-size: 24px;
+        font-weight: bold;
+        float: left;
+    }
+    .s8-top a{display: none;}
+    .s8-bottom{
+        clear: both;
+        display: flex;
+        height: 350px;
+        padding: 0;
+        gap: 20px;
     }
 }
 @media screen and (max-width: 800px){
@@ -310,6 +463,19 @@
     .s4rb-bottom a{
         font-size: 13px;
     }
+    #footer{
+        font-size: 12px;
+    }
+    .fmenu{
+        word-break: keep-all;
+    }
+    .footer-right{
+        padding-top: 30px;
+    }
+    .fcontact h6{display: none;}
+    .fsns{
+        left: 20px;
+    }
 }
 @media screen and (max-width: 600px){
     .s5-bottom{
@@ -326,9 +492,97 @@
         position: relative;
         display: inline-block;
     }
+    .s6-top{
+        text-align: auto;
+    }
+    #section6{
+        padding: 20px 0;
+    }
+    .s6-top img{
+        width: 20px;
+        height: 27px;
+        display: block;
+        float: left;
+        margin-left: 30px;
+        margin-top: 10px;
+    }
+    .s6-top h4{
+        float: left;
+        font-size: 22px;
+        margin-left: 5px;
+    }
+    .s6-top span{
+        display: block;
+        float: right;
+        margin: 15px 30px 0 0;
+        font-size: 14px;
+        cursor: pointer;
+    }
+    .s6-top p{display: none;}
+    .s6-top a{display: none;}
+    .s6bb span{
+        font-size: 10px;
+    }
+    .s6bb a{
+        font-size: 13px;
+    }
+    .s6bb p{
+        font-size: 10px;
+    }
+    .s7-left{
+        float: left;
+        width: 100%;
+        height: 400px;
+        padding: 50px 0;
+        margin-right: 0;
+        position: relative;
+    }
+    .s7-left a{
+        display: block;
+        float: right;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 170px;
+        transform: translate(-50%, -50%);
+    }
+    .s7-swiper{
+        display: block;
+        width: 100%;
+        height: 100%;
+        margin: 50px 0;
+    }
+    .s7-swiper .swiper-slide img{
+        width: 100%;
+        height: 100%;
+    }
+    #section8{
+        clear: both;
+    }
+    .s8-bottom{
+        clear: both;
+        display: block;
+        height: auto;
+        padding: 0;
+    }
+    .s8-bottom div{
+        margin: 10px 0;
+        height: 300px;
+    }
+    #footer{
+        clear: both;
+        padding-bottom: 20px;
+
+    }
+    #footer img{display: none;}
+    .finfo div{margin-left: 0;}
+    .fmenu a{
+        padding: 0 10px;
+        border-right: none;
+    }
 }
 @media screen and (max-width: 500px) {
-    .swiper-slide::after{
+    #section1 .swiper-slide::after{
         width: 100%;
         height: 50%;
         content: '';

@@ -259,7 +259,8 @@ body{
 .small-menu{display: none;}
 #section{
     width: 100%;
-    height: 1500px;
+    height: auto;
+    clear: both;
     /* background-color: lightgoldenrodyellow; */
 }
 #section1{
@@ -598,4 +599,338 @@ body{
     text-align: center;
     font-size: 12px;
     font-weight: bold;
+}
+#section6{
+    width: 100%;
+    height: auto;
+    background: url('../img/s6_bg_blur.png') no-repeat top center/cover;
+    padding: 60px 0;
+}
+.s6-top{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.s6-top img{}
+.s6-top h4{
+    font-size: 38px;
+    font-weight: bold;
+    margin: 5px 0 25px 0;
+}
+.s6-top p{
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.s6-top a{
+    font-size: 16px;
+    background: rgba(17,17,17,0.8);
+    color: #fff;
+    font-weight: bold;
+    padding: 15px 30px;
+    display: inline-block;
+    border-radius: 5px;
+    margin: 30px 0;
+    transition: all 0.3s;
+}
+.s6-top a:hover{
+    background: rgba(17,17,17,0.4);
+}
+.s6-top span{
+    display: none;
+}
+
+.s6-bottom{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    gap: 10px;
+}
+.s6box{}
+.s6box img{
+    width: 100%;
+    display: block;
+}
+.s6bb{
+    background-color: rgba(255,255,255,0.5);
+    backdrop-filter:blur(10px);
+    padding: 15px;
+    border-radius: 0 0 10px 10px;
+}
+.s6bb span{
+    font-size: 14px;
+    color: #777;
+}
+.s6bb a{
+    display: block;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 10px 0;
+    transition: all 0.3s;
+}
+.s6bb a:hover{
+    color: #666;
+}
+.s6bb p{
+    font-size: 16px;
+    width: 100%;
+    background-color: #fff;
+    border: 1px solid #d9d9d9;
+    padding: 5px 10px;
+}
+#section7{
+    width: 100%;
+    padding: 80px 0;
+    display: flex;
+    position: relative;
+    border-bottom: 1px solid #ccc;
+}
+#section7::after{
+    display: block;
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 30%;
+    right: 0;
+    top: 0;
+    background-color: #F2C6CF;
+    z-index: -1;
+}
+.s7-left{
+    width: 45%;
+    height: 850px;
+    margin-right: 8%;
+    position: relative;
+}
+.s7-left h5{
+    font-size: 30px;
+    transform: rotate(-90deg);
+    display: inline-block;
+    margin-top: 130px;
+    margin-left: 140px;
+}
+.s7-left a{
+    display: block;
+    float: right;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.s7-left a img{
+    display: block;
+}
+.s7-left span{
+    font-size: 38px;
+    position: absolute;
+    display: block;
+    bottom: 90px;
+    right: 0;
+}
+.s7-left p{
+    font-size: 38px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 30px;
+    right: 0;
+}
+
+.s7-right{
+    width: 47%;
+    height: 850px;
+    position: relative;
+}
+.s7-sns{
+    display: block;
+    position: absolute;
+    right: 170px;
+    top: 0px;
+}
+.s7-sns a{
+    display: block;
+    margin: 20px 0;
+}
+.s7-sns a img{
+    width: 38px;
+}
+.s7-right h5{
+    font-size: 30px;
+    font-weight: normal;
+    position: absolute;
+    top: 240px;
+}
+.s7-right h5 strong{
+    font-weight: bold;
+}
+.s7-right>a{
+    display: block;
+    float: left;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.s7-right>a>img{
+    width: 545px;
+}
+.s7-swiper{display: none;}
+#section8{
+    width: 100%;
+    padding: 50px 0;
+    clear: both;
+    margin-bottom: 150px;
+}
+.s8-top{
+    text-align: center;
+    clear: both;
+}
+.s8-top img{}
+.s8-top h4{
+    margin: 20px 0;
+    font-size: 38px;
+    font-weight: bold;
+}
+.s8-top a{
+    font-size: 16px;
+    background: rgba(17,17,17,0.8);
+    color: #fff;
+    font-weight: bold;
+    padding: 15px 30px;
+    display: inline-block;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    transition: all 0.3s;
+}
+.s8-top a:hover{
+    background: rgba(17,17,17,0.4);
+}
+.s8-bottom{
+    display: flex;
+    height: 495px;
+    padding: 0 50px;
+    gap: 20px;
+}
+.s8-bottom div{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.s8-bottom div:first-child{
+    background: url('../img/s8_1.jpg') no-repeat center/cover;
+}
+.s8-bottom div:nth-child(2){
+    background: url('../img/s8_2.jpg') no-repeat center/cover;
+}
+.s8-bottom div p{
+    font-size: 25px;
+    font-weight: bold;
+    color: #fff;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    text-shadow: 0 0 7px #555;
+}
+#footer{
+    width: 100%;
+    padding: 30px 20px 100px 20px;
+    margin-top: 20px;
+    background-color: #f7f7f7;
+    display: flex;
+    font-size: 14px;
+}
+.footer-left{
+    width: 50%;
+    /* background-color: yellow; */
+    position: relative;
+}
+.footer-left>p{
+    margin-bottom: 20px;
+}
+.footer-left>a{
+    position: absolute;
+    top: 0;
+    right: 60px;
+}
+.fmenu{
+    display: flex;
+    margin-bottom: 30px;
+}
+.fmenu a{
+    padding: 0 25px;
+    border-right: 1px solid #ccc;
+}
+.fmenu a:first-child{
+    padding: 0 25px 0 0;
+}
+.fmenu a:hover{
+    text-decoration: underline;
+}
+.finfo{
+    margin-bottom: 30px;
+}
+.finfo img{
+    width: 120px;
+    display: inline-block;
+    vertical-align: top;
+}
+.finfo div{
+    display: inline-block;
+    margin-left: 20px;
+}
+.finfo div p{
+    font-size: 12px;
+    line-height: 22px;
+}
+.finfo div address{
+    display: inline;
+    font-size: 12px;
+    line-height: 22px;
+}
+.frights{
+    font-size: 11px;
+    color: #171C8F;
+    font-weight: bold;
+}
+.footer-right{
+    padding-top: 50px;
+    width: 50%;
+}
+.fcontact{
+    display: flex;
+    clear: both;
+    margin-bottom: 30px;
+}
+.fcontact h6{
+    /* float: left; */
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 30px;
+}
+.fcontact>div{}
+.fcontact>div>div{
+    float: left;
+    margin-bottom: 20px;
+}
+.fcontact>div>div:first-child{
+    margin-right: 50px;
+}
+.fcontact>div>div:nth-child(3){
+    line-height: 25px;
+}
+.fcontact>div>div>img{
+    width: 25px;
+    display: inline-block;
+    margin-right: 10px;
+    /* vertical-align: super; */
+    line-height: 50px;
+}
+.fcontact>div>div>p{
+    display: inline-block;
+}
+
+.fsns{
+    position: absolute;
+    right: 20px;
+}
+.fsns a{}
+.fsns a img{
+    width: 25px;
+    display: inline-block;
+    margin: 0 5px;
 }
